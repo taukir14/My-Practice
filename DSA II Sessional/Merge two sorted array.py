@@ -17,8 +17,11 @@ def merge(arr1,arr2):
         j+=1
     return result
 
-arr1= [1,3,5,7]
-arr2 =[2,4,6,8]
+# arr1= [1,3,5,7]
+# arr2 =[2,4,6,8]
+
+arr1 = [1, 3, 5]
+arr2 = [2, 4, 6, 10, 8]
 print(merge(arr1,arr2))
 
 # print("Enter the size of first array")
